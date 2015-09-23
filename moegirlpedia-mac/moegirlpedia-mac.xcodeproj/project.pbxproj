@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C3B44CE1BB31415000A4C33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3B44CD1BB31415000A4C33 /* AppDelegate.swift */; };
+		1C3B44D01BB31415000A4C33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3B44CF1BB31415000A4C33 /* ViewController.swift */; };
+		1C3B44D21BB31415000A4C33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C3B44D11BB31415000A4C33 /* Assets.xcassets */; };
+		1C3B44D51BB31415000A4C33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C3B44D31BB31415000A4C33 /* Main.storyboard */; };
+		1C3B44E01BB31415000A4C33 /* moegirlpedia_macTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3B44DF1BB31415000A4C33 /* moegirlpedia_macTests.swift */; };
+		1C3B44EB1BB31415000A4C33 /* moegirlpedia_macUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3B44EA1BB31415000A4C33 /* moegirlpedia_macUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C3B44DC1BB31415000A4C33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C3B44C21BB31415000A4C33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C3B44C91BB31415000A4C33;
+			remoteInfo = "moegirlpedia-mac";
+		};
+		1C3B44E71BB31415000A4C33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C3B44C21BB31415000A4C33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C3B44C91BB31415000A4C33;
+			remoteInfo = "moegirlpedia-mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C3B44CA1BB31415000A4C33 /* moegirlpedia-mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "moegirlpedia-mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C3B44CD1BB31415000A4C33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C3B44CF1BB31415000A4C33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C3B44D11BB31415000A4C33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C3B44D41BB31415000A4C33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C3B44D61BB31415000A4C33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C3B44DB1BB31415000A4C33 /* moegirlpedia-macTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "moegirlpedia-macTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C3B44DF1BB31415000A4C33 /* moegirlpedia_macTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moegirlpedia_macTests.swift; sourceTree = "<group>"; };
+		1C3B44E11BB31415000A4C33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C3B44E61BB31415000A4C33 /* moegirlpedia-macUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "moegirlpedia-macUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C3B44EA1BB31415000A4C33 /* moegirlpedia_macUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moegirlpedia_macUITests.swift; sourceTree = "<group>"; };
+		1C3B44EC1BB31415000A4C33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C3B44C71BB31415000A4C33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C3B44D81BB31415000A4C33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C3B44E31BB31415000A4C33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C3B44C11BB31415000A4C33 = {
+			isa = PBXGroup;
+			children = (
+				1C3B44CC1BB31415000A4C33 /* moegirlpedia-mac */,
+				1C3B44DE1BB31415000A4C33 /* moegirlpedia-macTests */,
+				1C3B44E91BB31415000A4C33 /* moegirlpedia-macUITests */,
+				1C3B44CB1BB31415000A4C33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C3B44CB1BB31415000A4C33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C3B44CA1BB31415000A4C33 /* moegirlpedia-mac.app */,
+				1C3B44DB1BB31415000A4C33 /* moegirlpedia-macTests.xctest */,
+				1C3B44E61BB31415000A4C33 /* moegirlpedia-macUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C3B44CC1BB31415000A4C33 /* moegirlpedia-mac */ = {
+			isa = PBXGroup;
+			children = (
+				1C3B44CD1BB31415000A4C33 /* AppDelegate.swift */,
+				1C3B44CF1BB31415000A4C33 /* ViewController.swift */,
+				1C3B44D11BB31415000A4C33 /* Assets.xcassets */,
+				1C3B44D31BB31415000A4C33 /* Main.storyboard */,
+				1C3B44D61BB31415000A4C33 /* Info.plist */,
+			);
+			path = "moegirlpedia-mac";
+			sourceTree = "<group>";
+		};
+		1C3B44DE1BB31415000A4C33 /* moegirlpedia-macTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C3B44DF1BB31415000A4C33 /* moegirlpedia_macTests.swift */,
+				1C3B44E11BB31415000A4C33 /* Info.plist */,
+			);
+			path = "moegirlpedia-macTests";
+			sourceTree = "<group>";
+		};
+		1C3B44E91BB31415000A4C33 /* moegirlpedia-macUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C3B44EA1BB31415000A4C33 /* moegirlpedia_macUITests.swift */,
+				1C3B44EC1BB31415000A4C33 /* Info.plist */,
+			);
+			path = "moegirlpedia-macUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C3B44C91BB31415000A4C33 /* moegirlpedia-mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C3B44EF1BB31415000A4C33 /* Build configuration list for PBXNativeTarget "moegirlpedia-mac" */;
+			buildPhases = (
+				1C3B44C61BB31415000A4C33 /* Sources */,
+				1C3B44C71BB31415000A4C33 /* Frameworks */,
+				1C3B44C81BB31415000A4C33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "moegirlpedia-mac";
+			productName = "moegirlpedia-mac";
+			productReference = 1C3B44CA1BB31415000A4C33 /* moegirlpedia-mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C3B44DA1BB31415000A4C33 /* moegirlpedia-macTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C3B44F21BB31415000A4C33 /* Build configuration list for PBXNativeTarget "moegirlpedia-macTests" */;
+			buildPhases = (
+				1C3B44D71BB31415000A4C33 /* Sources */,
+				1C3B44D81BB31415000A4C33 /* Frameworks */,
+				1C3B44D91BB31415000A4C33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C3B44DD1BB31415000A4C33 /* PBXTargetDependency */,
+			);
+			name = "moegirlpedia-macTests";
+			productName = "moegirlpedia-macTests";
+			productReference = 1C3B44DB1BB31415000A4C33 /* moegirlpedia-macTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C3B44E51BB31415000A4C33 /* moegirlpedia-macUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C3B44F51BB31415000A4C33 /* Build configuration list for PBXNativeTarget "moegirlpedia-macUITests" */;
+			buildPhases = (
+				1C3B44E21BB31415000A4C33 /* Sources */,
+				1C3B44E31BB31415000A4C33 /* Frameworks */,
+				1C3B44E41BB31415000A4C33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C3B44E81BB31415000A4C33 /* PBXTargetDependency */,
+			);
+			name = "moegirlpedia-macUITests";
+			productName = "moegirlpedia-macUITests";
+			productReference = 1C3B44E61BB31415000A4C33 /* moegirlpedia-macUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C3B44C21BB31415000A4C33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = bbrabbit;
+				TargetAttributes = {
+					1C3B44C91BB31415000A4C33 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					1C3B44DA1BB31415000A4C33 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1C3B44C91BB31415000A4C33;
+					};
+					1C3B44E51BB31415000A4C33 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1C3B44C91BB31415000A4C33;
+					};
+				};
+			};
+			buildConfigurationList = 1C3B44C51BB31415000A4C33 /* Build configuration list for PBXProject "moegirlpedia-mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C3B44C11BB31415000A4C33;
+			productRefGroup = 1C3B44CB1BB31415000A4C33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C3B44C91BB31415000A4C33 /* moegirlpedia-mac */,
+				1C3B44DA1BB31415000A4C33 /* moegirlpedia-macTests */,
+				1C3B44E51BB31415000A4C33 /* moegirlpedia-macUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C3B44C81BB31415000A4C33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C3B44D21BB31415000A4C33 /* Assets.xcassets in Resources */,
+				1C3B44D51BB31415000A4C33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C3B44D91BB31415000A4C33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C3B44E41BB31415000A4C33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C3B44C61BB31415000A4C33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C3B44D01BB31415000A4C33 /* ViewController.swift in Sources */,
+				1C3B44CE1BB31415000A4C33 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C3B44D71BB31415000A4C33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C3B44E01BB31415000A4C33 /* moegirlpedia_macTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C3B44E21BB31415000A4C33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C3B44EB1BB31415000A4C33 /* moegirlpedia_macUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C3B44DD1BB31415000A4C33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C3B44C91BB31415000A4C33 /* moegirlpedia-mac */;
+			targetProxy = 1C3B44DC1BB31415000A4C33 /* PBXContainerItemProxy */;
+		};
+		1C3B44E81BB31415000A4C33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C3B44C91BB31415000A4C33 /* moegirlpedia-mac */;
+			targetProxy = 1C3B44E71BB31415000A4C33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C3B44D31BB31415000A4C33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C3B44D41BB31415000A4C33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C3B44ED1BB31415000A4C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C3B44EE1BB31415000A4C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1C3B44F01BB31415000A4C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "moegirlpedia-mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bbrabbit.moegirlpedia-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1C3B44F11BB31415000A4C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "moegirlpedia-mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bbrabbit.moegirlpedia-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1C3B44F31BB31415000A4C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "moegirlpedia-macTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bbrabbit.moegirlpedia-macTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moegirlpedia-mac.app/Contents/MacOS/moegirlpedia-mac";
+			};
+			name = Debug;
+		};
+		1C3B44F41BB31415000A4C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "moegirlpedia-macTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bbrabbit.moegirlpedia-macTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moegirlpedia-mac.app/Contents/MacOS/moegirlpedia-mac";
+			};
+			name = Release;
+		};
+		1C3B44F61BB31415000A4C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "moegirlpedia-macUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bbrabbit.moegirlpedia-macUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "moegirlpedia-mac";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1C3B44F71BB31415000A4C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "moegirlpedia-macUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bbrabbit.moegirlpedia-macUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "moegirlpedia-mac";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C3B44C51BB31415000A4C33 /* Build configuration list for PBXProject "moegirlpedia-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C3B44ED1BB31415000A4C33 /* Debug */,
+				1C3B44EE1BB31415000A4C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C3B44EF1BB31415000A4C33 /* Build configuration list for PBXNativeTarget "moegirlpedia-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C3B44F01BB31415000A4C33 /* Debug */,
+				1C3B44F11BB31415000A4C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1C3B44F21BB31415000A4C33 /* Build configuration list for PBXNativeTarget "moegirlpedia-macTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C3B44F31BB31415000A4C33 /* Debug */,
+				1C3B44F41BB31415000A4C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1C3B44F51BB31415000A4C33 /* Build configuration list for PBXNativeTarget "moegirlpedia-macUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C3B44F61BB31415000A4C33 /* Debug */,
+				1C3B44F71BB31415000A4C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C3B44C21BB31415000A4C33 /* Project object */;
+}
